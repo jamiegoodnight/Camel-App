@@ -12,3 +12,56 @@
 2020-09-16 14:38:42,177 | INFO | DefaultShutdownStrategy.java 262 | Graceful shutdown of 1 routes completed in 0 seconds
 2020-09-16 14:38:42,186 | INFO | AbstractCamelContext.java 2946 | Apache Camel 3.3.0 (CamelContext: camel-1) uptime 5.047 seconds
 2020-09-16 14:38:42,186 | INFO | AbstractCamelContext.java 2947 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2020-09-16 14:42:45,437 | INFO | LRUCacheFactory.java 90 | Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2020-09-16 14:42:45,713 | INFO | AbstractCamelContext.java 2635 | Apache Camel 3.3.0 (CamelContext: camel-1) is starting
+2020-09-16 14:42:45,716 | INFO | AbstractCamelContext.java 2778 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-09-16 14:42:45,722 | INFO | FileEndpoint.java 123 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-09-16 14:42:45,722 | INFO | FileEndpoint.java 129 | Using default memory based idempotent repository with cache max size: 1000
+2020-09-16 14:42:45,733 | INFO | AbstractCamelContext.java 3423 | Route: route1 started and consuming from: file://data/input
+2020-09-16 14:42:45,734 | INFO | AbstractCamelContext.java 2687 | Total 1 routes, of which 1 are started
+2020-09-16 14:42:45,734 | INFO | AbstractCamelContext.java 2692 | Apache Camel 3.3.0 (CamelContext: camel-1) started in 0.018 seconds
+2020-09-16 14:42:46,759 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2020-09-16 14:42:46,772 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2020-09-16 14:42:50,737 | INFO | AbstractCamelContext.java 2828 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutting down
+2020-09-16 14:42:50,738 | INFO | DefaultShutdownStrategy.java 197 | Starting to graceful shutdown 1 routes (timeout 45 seconds)
+2020-09-16 14:42:50,740 | INFO | DefaultShutdownStrategy.java 703 | Route: route1 shutdown complete, was consuming from: file://data/input
+2020-09-16 14:42:50,740 | INFO | DefaultShutdownStrategy.java 262 | Graceful shutdown of 1 routes completed in 0 seconds
+2020-09-16 14:42:50,745 | INFO | AbstractCamelContext.java 2946 | Apache Camel 3.3.0 (CamelContext: camel-1) uptime 5.029 seconds
+2020-09-16 14:42:50,745 | INFO | AbstractCamelContext.java 2947 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutdown in 0.008 seconds
+2020-09-16 14:44:04,484 | INFO | LRUCacheFactory.java 90 | Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2020-09-16 14:44:04,757 | INFO | AbstractCamelContext.java 2635 | Apache Camel 3.3.0 (CamelContext: camel-1) is starting
+2020-09-16 14:44:04,760 | INFO | AbstractCamelContext.java 2778 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-09-16 14:44:04,766 | INFO | FileEndpoint.java 123 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-09-16 14:44:04,766 | INFO | FileEndpoint.java 129 | Using default memory based idempotent repository with cache max size: 1000
+2020-09-16 14:44:04,778 | INFO | AbstractCamelContext.java 3423 | Route: route1 started and consuming from: file://data/input
+2020-09-16 14:44:04,779 | INFO | AbstractCamelContext.java 2687 | Total 1 routes, of which 1 are started
+2020-09-16 14:44:04,779 | INFO | AbstractCamelContext.java 2692 | Apache Camel 3.3.0 (CamelContext: camel-1) started in 0.020 seconds
+2020-09-16 14:44:05,806 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\JamieGoodnight\Desktop\Camel-App\data\input\file1.txt, CamelFileLastModified=1600278698226, CamelFileLength=2, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data\input, CamelFilePath=data\input\file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2020-09-16 14:44:05,817 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\JamieGoodnight\Desktop\Camel-App\data\input\file2.txt, CamelFileLastModified=1600278741427, CamelFileLength=5, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data\input, CamelFilePath=data\input\file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2020-09-16 14:44:09,783 | INFO | AbstractCamelContext.java 2828 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutting down
+2020-09-16 14:44:09,786 | INFO | DefaultShutdownStrategy.java 197 | Starting to graceful shutdown 1 routes (timeout 45 seconds)
+2020-09-16 14:44:09,793 | INFO | DefaultShutdownStrategy.java 703 | Route: route1 shutdown complete, was consuming from: file://data/input
+2020-09-16 14:44:09,795 | INFO | DefaultShutdownStrategy.java 262 | Graceful shutdown of 1 routes completed in 0 seconds
+2020-09-16 14:44:09,807 | INFO | AbstractCamelContext.java 2946 | Apache Camel 3.3.0 (CamelContext: camel-1) uptime 5.048 seconds
+2020-09-16 14:44:09,807 | INFO | AbstractCamelContext.java 2947 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutdown in 0.024 seconds
+2020-09-16 15:00:57,913 | INFO | LRUCacheFactory.java 90 | Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2020-09-16 15:02:21,170 | INFO | LRUCacheFactory.java 90 | Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2020-09-16 15:02:21,443 | INFO | AbstractCamelContext.java 2635 | Apache Camel 3.3.0 (CamelContext: camel-1) is starting
+2020-09-16 15:02:21,446 | INFO | AbstractCamelContext.java 2778 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-09-16 15:02:21,451 | INFO | FileEndpoint.java 123 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-09-16 15:02:21,451 | INFO | FileEndpoint.java 129 | Using default memory based idempotent repository with cache max size: 1000
+2020-09-16 15:02:21,456 | INFO | FileEndpoint.java 123 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-09-16 15:02:21,457 | INFO | FileEndpoint.java 129 | Using default memory based idempotent repository with cache max size: 1000
+2020-09-16 15:02:21,461 | INFO | AbstractCamelContext.java 3423 | Route: route1 started and consuming from: file://data/input
+2020-09-16 15:02:21,462 | INFO | AbstractCamelContext.java 3423 | Route: route2 started and consuming from: file://data/input1
+2020-09-16 15:02:21,462 | INFO | AbstractCamelContext.java 2687 | Total 2 routes, of which 2 are started
+2020-09-16 15:02:21,462 | INFO | AbstractCamelContext.java 2692 | Apache Camel 3.3.0 (CamelContext: camel-1) started in 0.016 seconds
+2020-09-16 15:02:22,492 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\JamieGoodnight\Desktop\Camel-App\data\input\file1.txt, CamelFileLastModified=1600278698226, CamelFileLength=2, CamelFileName=file1.txt, CamelFileNameConsumed=file1.txt, CamelFileNameOnly=file1.txt, CamelFileParent=data\input, CamelFilePath=data\input\file1.txt, CamelFileRelativePath=file1.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file1.txt]]]
+2020-09-16 15:02:22,506 | INFO | CamelLogger.java 158 | Exchange[ExchangePattern: InOnly, Headers: {CamelFileAbsolute=false, CamelFileAbsolutePath=C:\Users\JamieGoodnight\Desktop\Camel-App\data\input\file2.txt, CamelFileLastModified=1600278741427, CamelFileLength=5, CamelFileName=file2.txt, CamelFileNameConsumed=file2.txt, CamelFileNameOnly=file2.txt, CamelFileParent=data\input, CamelFilePath=data\input\file2.txt, CamelFileRelativePath=file2.txt}, BodyType: org.apache.camel.component.file.GenericFile, Body: [Body is file based: GenericFile[file2.txt]]]
+2020-09-16 15:02:26,464 | INFO | AbstractCamelContext.java 2828 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutting down
+2020-09-16 15:02:26,465 | INFO | DefaultShutdownStrategy.java 197 | Starting to graceful shutdown 2 routes (timeout 45 seconds)
+2020-09-16 15:02:26,468 | INFO | DefaultShutdownStrategy.java 703 | Route: route2 shutdown complete, was consuming from: file://data/input1
+2020-09-16 15:02:26,469 | INFO | DefaultShutdownStrategy.java 703 | Route: route1 shutdown complete, was consuming from: file://data/input
+2020-09-16 15:02:26,469 | INFO | DefaultShutdownStrategy.java 262 | Graceful shutdown of 2 routes completed in 0 seconds
+2020-09-16 15:02:26,474 | INFO | AbstractCamelContext.java 2946 | Apache Camel 3.3.0 (CamelContext: camel-1) uptime 5.028 seconds
+2020-09-16 15:02:26,474 | INFO | AbstractCamelContext.java 2947 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutdown in 0.010 seconds

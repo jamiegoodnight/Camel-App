@@ -5,7 +5,7 @@ import org.apache.camel.RoutesBuilder;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
-public class CopyFilesCamel {
+public class CopyFilesCamelMultiRoute {
 
     public static void main(String[] args) throws Exception {
 
@@ -17,6 +17,9 @@ public class CopyFilesCamel {
                 from("file:data/input?noop=true")
                         .to("log:?level=INFO&showBody=true&showHeaders=true")
                         .to("file:data/output");
+
+                from("file:data/input1?noop=true")
+                        .to("file:data/output1");
             }
         });
 
@@ -27,5 +30,3 @@ public class CopyFilesCamel {
         context.stop();
     }
 }
-
-
