@@ -1,0 +1,14 @@
+2020-09-16 14:38:36,885 | INFO | LRUCacheFactory.java 90 | Detected and using LRUCacheFactory: camel-caffeine-lrucache
+2020-09-16 14:38:37,137 | INFO | AbstractCamelContext.java 2635 | Apache Camel 3.3.0 (CamelContext: camel-1) is starting
+2020-09-16 14:38:37,139 | INFO | AbstractCamelContext.java 2778 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-09-16 14:38:37,145 | INFO | FileEndpoint.java 123 | Endpoint is configured with noop=true so forcing endpoint to be idempotent as well
+2020-09-16 14:38:37,146 | INFO | FileEndpoint.java 129 | Using default memory based idempotent repository with cache max size: 1000
+2020-09-16 14:38:37,159 | INFO | AbstractCamelContext.java 3423 | Route: route1 started and consuming from: file://data/input
+2020-09-16 14:38:37,160 | INFO | AbstractCamelContext.java 2687 | Total 1 routes, of which 1 are started
+2020-09-16 14:38:37,160 | INFO | AbstractCamelContext.java 2692 | Apache Camel 3.3.0 (CamelContext: camel-1) started in 0.021 seconds
+2020-09-16 14:38:42,162 | INFO | AbstractCamelContext.java 2828 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutting down
+2020-09-16 14:38:42,165 | INFO | DefaultShutdownStrategy.java 197 | Starting to graceful shutdown 1 routes (timeout 45 seconds)
+2020-09-16 14:38:42,174 | INFO | DefaultShutdownStrategy.java 703 | Route: route1 shutdown complete, was consuming from: file://data/input
+2020-09-16 14:38:42,177 | INFO | DefaultShutdownStrategy.java 262 | Graceful shutdown of 1 routes completed in 0 seconds
+2020-09-16 14:38:42,186 | INFO | AbstractCamelContext.java 2946 | Apache Camel 3.3.0 (CamelContext: camel-1) uptime 5.047 seconds
+2020-09-16 14:38:42,186 | INFO | AbstractCamelContext.java 2947 | Apache Camel 3.3.0 (CamelContext: camel-1) is shutdown in 0.024 seconds
