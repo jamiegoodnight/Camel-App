@@ -27,7 +27,8 @@ public class ProducerAndExample {
 						
 						message = message + "-By Jamie Goodnight";
 						
-						exchange.getOut().setBody(message);
+//						exchange.getOut().setBody(message);
+						exchange.getMessage().setBody(message);
 						
 					}   
 					
